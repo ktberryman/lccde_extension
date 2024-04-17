@@ -20,7 +20,7 @@ Below is a screenshot of our planning process, we partitioned the provided data 
 
 This allowed us to build upon the idea that to increase F1 scores throughout, especially in commercial Datasets that can be very large, we need to find irregular data points within the Dataset that can ultimately be percieved as a network attack, which DBSCAN is signifigantly better at than K means.
 
-![alt text](kMeansVSDBScan.png)
+![alt text](resources/kMeansVSDBScan.png)
 
 We also attempted to replace the CatBoost model in the ensemble because it was the lowest performing for every type of attack.
 
