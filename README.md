@@ -16,6 +16,8 @@ Requires dependencies in the lccde_extension.ipynb file and the CICID2017 sample
 
 We attempted to improve overall performance by preprocessing the dataset using the density based clustering method DBSCAN instead of the K means method that the authors originally deployed.
 
+![alt text](kMeansVSDBScan.png)
+
 We also attempted to replace the CatBoost model in the ensemble because it was the lowest performing for every type of attack.
 
 #### Results
