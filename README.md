@@ -18,7 +18,7 @@ We attempted to improve overall performance by preprocessing the dataset using t
 
 Below is a screenshot of our planning process, we partitioned the provided data into 13 different .csv files and ran them through a KMeans algorithm and DBSCAN individually. As we can see on the right DBSCAN is better suited for locating irregularly shaped clusters especially in a large Dataset, it also aided us in locating outliers within the provided Dataset.
 
-This allowed us to build upon the idea that to increase F1 scores throughout, especially in commercial Datasets that can be very large, we need to find irregular data points within the Dataset that can ultimately be percieved as a network attack, which DBSCAN is signifigantly better at than K means.
+This allowed us to build upon the idea that to increase F1 scores and overall performance of the ensemble method throughout, especially in commercial Datasets that can be very large, we need to find irregular data points within the Dataset that can ultimately be percieved as a network attack, which DBSCAN is signifigantly better at than K means.
 
 ![alt text](resources/kMeansVSDBScan.png)
 
